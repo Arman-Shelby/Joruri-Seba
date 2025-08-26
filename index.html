@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joruri Seba</title>
+    <!-- Daisy UI and Tailwind CSS installation CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome installation cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body class="bg-grey-100">
+    <section class="  h-14 mx-auto mt-2 flex items-center justify-between px-4  ">
+    <!-- Left Side: Icon and Text -->
+    <div class="flex items-center space-x-2">
+      <img src="./assets/logo-dark.png" alt="Emergency Icon" class="w-9 h-9">
+      <span class="text-sm font-semibold text-green-900">Emergency <br> Service</span>
+    </div>
+
+    <!-- Right Side: Status Items and Button -->
+    <div class="flex items-center space-x-3">
+      <!-- Heart Count -->
+      <div class="flex items-center bg-green-100 rounded-full px-2 py-1 text-xs text-black space-x-1">
+        <span>0</span>
+        <span class="text-red-500 w-6 h-6"><img src="./assets/heart.png" alt=""></span>
+      </div>
+
+      <!-- Coin Count -->
+      <div class="flex items-center bg-green-100 rounded-full px-2 py-1 text-xs text-black space-x-1">
+        <span>100</span>
+        <span class="text-yellow-500 w-6 h-6"><img src="./assets/coin.png" alt=""></span>
+      </div>
+
+      <!-- View Button -->
+      <button class="bg-green-600 hover:bg-green-700 text-white text-sm px-4 py-1 rounded-full">2 Copy</button>
+    </div>
+  </section>
+
+
+
+    <script src="./index.js"></script>
+  </body>
+</html>
